@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import Brainwave from "@/public/Brainwave.png";
+import Financial_LandingPage from "@/public/Financial_LandingPage.png";
 import Ecommerce from "@/public/Ecommerce.png";
 import ThreeDPortfolio from "@/public/ThreeDPortfolio.png";
 
@@ -89,6 +90,13 @@ export const projectsData = [
       "This is a Dynamic Landing Website. It is very Responsive and attractive and very easy to Run.",
     tags: ["React", "Vite","Tailwind"],
     imageUrl: Brainwave,
+  },
+  {
+    title: "Financial LandingPage",
+    description:
+      "This is a Dynamic Financial Landing Website. It is very Responsive and attractive and very easy to Run.",
+    tags: ["NextJs", "FramerMotion","Tailwind"],
+    imageUrl: Financial_LandingPage,
   },
   
 ] as const;
