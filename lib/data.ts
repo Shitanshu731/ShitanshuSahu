@@ -66,39 +66,49 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "2023 - 2024",
   },
-  
 ] as const;
 
 export const projectsData = [
   {
+    url: "",
     title: "Ecommerce",
     description:
       "This is a Full Stack Project Ecommerce Website created by me , it is very much scalable and easy to use.",
-    tags: ["React", "TypeScript", "Tailwind", "Redux","MongoDb","ExpressJs","Firebase"],
+    tags: [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Redux",
+      "MongoDb",
+      "ExpressJs",
+      "Firebase",
+    ],
     imageUrl: Ecommerce,
   },
   {
+    url: "https://shitanshu-sahu.vercel.app/",
     title: "3D_Portfolio",
     description:
       "This is a 3D Portfolio , with latest tech features ,smooth UI and very Scalable.",
-    tags: ["React","Tailwind", "FramerMotion","ThreeJs"],
+    tags: ["React", "Tailwind", "FramerMotion", "ThreeJs"],
     imageUrl: ThreeDPortfolio,
   },
   {
+    url: "https://brainwave-ochre.vercel.app/",
     title: "Brainwave",
     description:
       "This is a Dynamic Landing Website. It is very Responsive and attractive and very easy to Run.",
-    tags: ["React", "Vite","Tailwind"],
+    tags: ["React", "Vite", "Tailwind"],
     imageUrl: Brainwave,
   },
   {
+    url: "https://pssfinancials.vercel.app/",
     title: "Financial LandingPage",
     description:
       "This is a Dynamic Financial Landing Website. It is very Responsive and attractive and very easy to Run.",
-    tags: ["NextJs", "FramerMotion","Tailwind"],
+    tags: ["NextJs", "FramerMotion", "Tailwind"],
     imageUrl: Financial_LandingPage,
   },
-  
 ] as const;
 
 export const skillsData = [
