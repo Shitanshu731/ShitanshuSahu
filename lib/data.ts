@@ -4,6 +4,8 @@ import { FaReact } from "react-icons/fa";
 import Brainwave from "@/public/Brainwave.png";
 import Financial_LandingPage from "@/public/Financial_LandingPage.png";
 import Ecommerce from "@/public/Ecommerce.png";
+import FinanceFlex from "@/public/FinanceFlex.png";
+import InstaDocs from "@/public/InstaDocs.png";
 import ThreeDPortfolio from "@/public/ThreeDPortfolio.png";
 
 export const links = [
@@ -70,21 +72,30 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    url: "",
-    title: "Ecommerce",
+    url: "https://finance-flex-gamma.vercel.app/",
+    title: "FinanceFlex",
     description:
-      "This is a Full Stack Project Ecommerce Website created by me , it is very much scalable and easy to use.",
+      "This platform seamlessly manages bank transactions, accounts, and transfers funds from one account to another.",
     tags: [
       "React",
+      "NextJs",
       "TypeScript",
       "Tailwind",
-      "Redux",
-      "MongoDb",
-      "ExpressJs",
-      "Firebase",
+      "Appwrite",
+      "Plaid",
+      "Dwolla",
     ],
-    imageUrl: Ecommerce,
+    imageUrl: FinanceFlex,
   },
+  {
+    url: "https://insta-docs-chi.vercel.app/",
+    title: "InstaDocs",
+    description:
+      "This platform seamlessly manages documents with live interactions among users. The admin can grant view or edit permissions to any user via Gmail.",
+    tags: ["NextJs", "TypeScript", "Tailwind", "LiveBlocks", "ClerkJs"],
+    imageUrl: InstaDocs,
+  },
+
   {
     url: "https://shitanshu-sahu.vercel.app/",
     title: "3D_Portfolio",
