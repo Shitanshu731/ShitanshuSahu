@@ -37,28 +37,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Front-End Developer(Oasis Infobyte)",
+    title: "Full Stack Developer(CyberPeak IT Solutions Pvt Ltd )",
     location: "Remote",
     description:
-      "I worked as a front-end developer for 1 month . I also upskilled to the full stack.",
+      "I worked as a devOps Engineer for over 4 months, got to learn about Git,Github,Docker,VPS,Nginx.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2022",
+    date: "2025",
   },
   {
-    title: "Front-End Developer(SimpleByte)",
+    title: "Teaching Assistant(Apni Kaksha)",
     location: "Remote",
     description:
-      "I worked as a front-end developer for 1 month .got to learn about HTML,CSS,React.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2022",
-  },
-  {
-    title: "Full-Stack Developer(Bharat Intern)",
-    location: "Remote",
-    description:
-      "I worked as a Full-Stack developer for 1 month . I worked on videoMeet projects and Ecommerce.",
+      "I assisted in enhancing students' understanding of full-stack development concepts.",
     icon: React.createElement(FaReact),
-    date: "2022- 2023",
+    date: "2025",
   },
   {
     title: "Full-Stack Developer(PSSFinancials)",
